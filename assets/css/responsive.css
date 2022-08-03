@@ -1,0 +1,442 @@
+@charset "UTF-8";
+
+@media (max-width: 1800px) {
+    #header {
+        padding-top: 32px;
+    }
+    #main {
+        padding-top: 32px;
+    }
+}
+
+
+@media (max-width: 1664px) { /* main 레이아웃 변경 */
+    .header_inner .logo {
+        left: 30px;
+    }
+    .header_inner .menu_btn {
+        right: 30px;
+    }
+    #header {
+        padding-top: 32px;
+    }
+    #main {
+        padding-top: 72px;
+    }
+    .main_wrap, .footer_wrap {
+        max-width: none;
+        margin: 0 132px;
+    }
+
+    /* main 레이아웃 */    
+    .s1 {
+        position: relative;
+        padding: 0 30px;
+    }
+    .main_illust {
+        /* position: static; */
+        width: 50vw; height: 40vw;
+    }
+
+    .s2 {
+        position: relative;
+        padding: 0 30px;
+        background: #C21E1E;
+    }
+    .main_projects_cont_wrap {
+        justify-content: space-around;
+    }
+    .main_projects_cont_box {
+        width: 600px;
+        /* margin-bottom: 48px; */
+    }
+    .cont_box_img {
+        height: 390px;
+    }
+    .s4 .main_tit p:first-child {
+        width: 58vw;
+    }
+    .s5 .main_tit p:last-child {
+        width: 42vw;
+    }
+    .s5 .main_code_illust {
+        width: 42vw;
+        margin-right: 0;
+    }
+    /* //main */
+}
+
+
+@media (max-width: 1620px) { /* main 레이아웃 변경 */
+    .main_tit {
+        font-size: 4.3vw;
+    }
+    .s3 .main_tit p:first-child {
+        width: 41vw;
+    }
+}
+
+
+
+
+@media (max-width: 1464px) {  /* 헤더 레이아웃 변경 */
+    #header {
+        padding-top: 18px;
+        position: relative;
+        height: 130px;
+    }
+    .header_inner .logo {
+        left: 20px;
+    }
+    .header_inner .menu_btn {
+        width: 60px; height: 60px;
+        right: 32px;
+    }
+    #main {
+        padding: 0;
+    }
+    .main_wrap, .footer_wrap {
+        max-width: none;
+        margin: 0 32px;
+    }
+    .menu_btn_line.line1 {
+        top: 20px;
+        width: 44px;
+    }
+    .menu_btn_line.line2 {
+        top: 36px;
+        width: 24px;
+    }
+    .menu_btn_tit {
+        top: 48px;
+    }
+    .main_illust {
+        width: 54vw; height: 44vw;
+    }
+    .s2 .layout {
+        justify-content: space-between;
+        font-size: 15px;
+    }
+    .s2 .layout > div {
+        margin: 0 24px;
+    }
+    .s3 .main_tit p:first-child {
+        width: 40vw;
+    }
+    .s4 .main_tit p:first-child {
+        width: 51vw;
+    }
+    .main_code_cont_box {
+        width: 36vw;
+        margin-right: 3vw;
+    }
+    .main_code_cont_box > div {
+        margin-bottom: 36px;
+    }
+    .main_code_cont_box h4 {
+        font-size: 24px;
+        margin-bottom: 1.6vw;
+    }
+    .s5 .main_code_illust {
+        margin-right: -120px;
+    }
+    #menu_slide {
+        right: -620px;
+        width: 620px;
+    }    
+    .menu_list ul li {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 1320px) { /* 푸터 레이아웃 변경 */
+    .main_introduce_sub {
+        margin-top: 18vw;
+    }
+    .main_illust {
+        position: absolute;
+        top: 160px;
+        width: 52vw; height: 42vw;
+    }
+    .main_projects_cont_box {
+        width: 48%;
+    }
+    .cont_box_img {
+        height: 24vw;
+    }
+    .main_design_cont_box > div {
+        width: 36vw;
+        margin: 0 3vw;
+    }
+    .main_design_cont_box h4 {
+        font-size: 24px;
+        margin-bottom: 1.6vw;
+    }
+    .main_design_illust {
+        width: 90vw;
+        margin-left: 2.5vw;
+    }
+    .footer_top > div:nth-child(1), .footer_top > div:nth-child(3) {
+        font-size: 4vw;
+    }
+    .footer_top > div:nth-child(2) {
+        font-size: 1.8vw;
+        font-weight: 300;
+        font-family: 'Raleway', sans-serif; 
+        text-align: center;
+        line-height: 2.2vw;
+    }
+    .go_site span {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 1240px) {
+    .skill_wrap {
+        width: 39vw;
+    }
+    .skill_wrap div .skill_bar_wrap {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 1080px) {
+    .top_menu {
+        font-size: 2.8vw;
+        padding: 34px 0;
+    }
+    .main_txt {
+        padding-bottom: 80px;
+    }
+    .main_introduce {
+        font-size: 3.8vw;
+    }
+    .main_introduce span {
+        font-size: 4.5vw;
+    }
+    .main_introduce_sub {
+        margin-top: 14vw;
+        font-size: 1.8vw;
+        line-height: 2.5vw;
+    }
+    .main_illust {
+        top: 130px;
+    }
+    .main_tit {
+        padding: 64px 0;
+    }
+
+    /* 프로젝트 */
+    .cont_box_inner {
+        margin: 28px 0;
+    }
+    .cont_box_inner h4 {
+        font-size: 2vw;
+        margin-bottom: 20px;
+    }
+    .cont_box_txt {
+        font-size: 15px;
+    }
+    .cont_box_txt p {
+        margin-bottom: 12px;
+    }
+    .cont_box_tit {
+        width: 120px;
+    }
+    .cont_box_tit:before {
+        width: 5px; height: 5px;
+    }
+    .cont_box_sub {
+        font-size: 14px;
+    }
+    .go_site {
+        height: 48px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    /* //프로젝트 */
+
+    .main_code_cont_wrap {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        padding: 20px 0 100px;
+    }
+    .main_code_cont_box {
+        width: 100%;
+    }
+    .s5 .main_code_illust {
+        vertical-align: none;
+        width: 70vw;
+        height: 50vw;
+        margin: 20px auto 0;
+    }
+    #menu_slide {
+        right: -480px;
+        width: 480px;
+        padding: 32px 54px;
+    }
+    .menu_list ul li {
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 40px;
+    }
+    .menu_illust {
+        right: 50px;
+    }    
+    .ball_img i {
+        font-size: 100px;
+    }
+    .ball_shadow {
+        position: absolute;
+        top: 36px; left: 24px;
+        width: 188px;
+        height: 48px;
+        border-radius: 50%;
+        transform: rotate(-20deg);
+        background: linear-gradient(240deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0.4) 100%);
+    }    
+}
+
+
+@media (max-width: 768px) {
+    .main_wrap, .footer_wrap {
+        max-width: none;
+        margin: 0;
+    }
+    #header {
+        padding-top: 20px;
+        position: relative;
+        height: 100px;
+    }
+    .header_inner .logo {
+        left: 10px;
+        width: 60px; height: 60px;
+    }
+    .header_inner .menu_btn {
+        width: 48px; height: 48px;
+        top: 6px; right: 10px;
+    }
+    .menu_btn_line.line1 {
+        top: 14px;
+        width: 40px;
+    }
+    .menu_btn_line.line2 {
+        top: 30px;
+        width: 24px;
+    }
+    .menu_btn_tit {
+        display: none;
+    }
+    .header_inner .logo a {
+        padding: 0;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .logo i {
+        display: none;
+    }
+    .s2 .layout {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .introduction_wrap {
+        width: auto;
+    }
+    
+    .skill_wrap {
+        width: auto;
+    }
+    .skill_wrap div .skill_bar_wrap {
+        width: 60vw;
+    }
+    .main_design_cont_box {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+    .main_design_cont_box > div {
+        width: 100%;
+        margin: 3vw 0;
+    }
+    .main_design_illust {
+        margin-top: 4vw;
+        margin-left: 4vw;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .top_menu {
+        padding: 34px 0;
+        font-size: 18px;
+    }
+    .main_txt {
+        padding-bottom: 0;
+    }
+    .main_introduce {
+        width: 100%;
+        font-size: 36px;
+        margin: 10px 0;
+    }
+    .main_introduce span {
+        font-size: 42px;
+    }
+    .main_introduce_sub {
+        margin-top: 0;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: right;
+    }
+    .main_illust {
+        position: relative;
+        width: 85vw; height: 65vw;
+        top: 20px; left: 0; right: 0;
+        margin-bottom: 48px;
+    }
+    .main_illust .main_mountains {
+        position: absolute;
+        bottom: 0; left: 0;
+        width: 100%;
+    }
+    .main_illust span {
+        position: absolute;
+        display: inline-block;
+        width: 12%; height: 12%;
+    }    
+    .skill_wrap div .skill_bar_wrap {
+        width: 50vw;
+    }
+    .skill_bar_fill {
+        width: 10vw;
+    }
+        /* 프로젝트 */
+        .main_projects_cont_wrap {
+            display: flex;
+            flex-direction: column;
+        }
+        .main_projects_cont_box {
+            width: 100%;
+            padding: 0 20px;
+        }
+        .cont_box_img {
+            height: 58vw;
+        }
+        .cont_box_inner {
+            margin: 30px 0;
+        }
+        .cont_box_inner h4 {
+            font-size: 22px;
+        }
+        .cont_box_tit {
+            width: 140px;
+        }
+        .cont_box_sub {
+            padding-right: 0;
+        }
+        /* //프로젝트 */
+        
+}
