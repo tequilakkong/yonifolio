@@ -175,7 +175,6 @@
     }
     .main_design_illust {
         width: 90vw;
-        margin-left: 2.5vw;
     }
     .footer_top > div:nth-child(1), .footer_top > div:nth-child(3) {
         font-size: 4vw;
@@ -364,7 +363,6 @@
     }
     .main_design_illust {
         margin-top: 4vw;
-        margin-left: 4vw;
     }
 }
 
