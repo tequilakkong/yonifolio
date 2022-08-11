@@ -34,3 +34,37 @@ function backLink() {
 	location.replace(s3_link);
 }
 //참고: https://demun.tistory.com/2536#google_vignette [demun(대문블로그):티스토리]
+
+
+
+//프로젝트 사이트 이동
+pSite1 = 'https://yonikk.cafe24.com/02/02_final/project/sidance/sidance_main.html';
+pSite2 = 'https://tequilakkong.github.io/mocamp_desktop/'
+pSite2_m = 'https://tequilakkong.github.io/m_mocamp/'
+pSite3 = 'https://tequilakkong.github.io/laneige/'
+
+function project1() {
+  location.href = pSite1; //기존 창에서 페이지 이동
+	// window.open(pSite1); //새창으로 열기
+}
+
+function project2() {
+  location.href = pSite2;
+}
+
+function project2_m() {
+  location.href = pSite2_m;
+}
+
+function project3() {
+  location.href = pSite3;
+}
+
+//출처: https://jhost.tistory.com/62 [dev.j:티스토리]
+
+
+//scroll down 클릭 시 부드럽게 item-2로 이동
+$('.scroll_down_wrap').click(function(){
+  var offset = $("#item-2").offset(); //해당 위치 반환
+  $("html").animate({scrollTop: offset.top}, 200);
+});
