@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yonifolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/c152054233.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="assets/js/sub.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="header_inner">
+            <h1 class="logo" onclick="homeLink()">
+                <a href="#">
+                yoni<br>folio<br><i class="fa-solid fa-baseball"></i>
+                </a>
+            </h1>
+            <button class="menu_btn" onclick="backLink()">
+                <span class="menu_btn_line"></span>
+                <span class="menu_btn_tit">BACK</span>
+            </button>
+        </div>
+    </header>
+    <section id="item-1" class="item bg_mo">
+        <div class="item_txt_wrap">
+            <p class="sub_tit">Adaptive Site</p>
+            <h2>MOCAMP</h2>
+            <p class="sub_txt">
+                깔끔하고 편안한 분위기의 캠핑 예약 사이트입니다. 적응형 사이트로 제작하였으며 메인 롤링배너를 제외한 모든 마우스 이벤트 애니메이션은 바닐라 자바스크립트로 구현했습니다.
+            </p>
+            <p class="date">제작기간: 2022. 6 - 2022. 7</p>
+            <div class="project_tag">
+                <span>Design 100%</span>
+                <span>Publishing 100%</span><br>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+                <span>Photoshop</span>
+                <span>Illustrator</span>
+                <span>Figma</span>
+            </div>
+        </div>
+        <div class="scroll_down_wrap">
+            <span>scroll<br>down</span>
+        </div>
+    </section>
+    <section id="item-2" class="item">
+        <div class="container">
+            <div class="item_wrap">
+                <div class="item_box_wrap">
+                    <div class="item_box">
+                        <h4>OVERVIEW</h4>
+                        <p>
+                            디자인 작업 및 프로토타이핑툴로써 포토샵과 피그마를 적극 활용합니다. 그리드 시스템과 구글의 material design, 애플의 Human Interface Guidelines 을 UI 디자인에 적극 활용합니다. 새로운 사이트 디자인을 하기 전 기획 단계에서 같은 도메인에 있는 경쟁 업체들의 케이스를 살피고 분석하는 과정을 거칩니다. 해당 서비스 및 사이트를 이용할 고객들의 특성 및 디자인 트렌드를 고려하여 디자인에 반영합니다
+                        </p>
+                    </div>
+                    <div class="item_box">
+                        <h4>CONCEPT</h4>
+                        <p>
+                            디자인 작업 및 프로토타이핑툴로써 포토샵과 피그마를 적극 활용합니다. 그리드 시스템과 구글의 material design, 애플의 Human Interface Guidelines 을 UI 디자인에 적극 활용합니다. 새로운 사이트 디자인을 하기 전 기획 단계에서 같은 도메인에 있는 경쟁 업체들의 케이스를 살피고 분석하는 과정을 거칩니다. 해당 서비스 및 사이트를 이용할 고객들의 특성 및 디자인 트렌드를 고려하여 디자인에 반영합니다
+                        </p>
+                    </div>
+                </div>
+                <div class="item_box_wrap">
+                    <div class="item_box">
+                        <h4>COLORS</h4>
+                        <p class="colorchip mo">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </p>
+                    </div>
+                    <div class="item_box">
+                        <h4>TYPOGRAPHY</h4>
+                        <p class="typo_box">
+                            <span>
+                                <span class="bold">Inter</span>
+                                가나다라마바사아자차카타파하<br>
+                                abcdefghijklmnopqrstuvwxyz<br>
+                                abcdefghijklmnopqrstuvwxyz<br>
+                                1234567890
+                            </span>
+                            <span>
+                                <span class="bold">Outfit</span>
+                                가나다라마바사아자차카타파하<br>
+                                abcdefghijklmnopqrstuvwxyz<br>
+                                abcdefghijklmnopqrstuvwxyz<br>
+                                1234567890
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="go_site" onclick="project2()"><span><i class="fa-solid fa-arrow-right-long"></i> 사이트 바로가기</span></button>
+            <div class="style_guide_enter">
+                <div class="style_guide_head">
+                    <p>Project Note</p>
+                    <p>02</p>
+                    <p class="top_menu_txt_under">Style Guide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="item-3" class="item">
+        <div class="container">
+            <div class="style_guide">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="style_guide_wrap">
+                            <h2>컬러 시스템</h2>
+                            <div class="style_guide_box">
+                                <div class="guide_img">
+                                    <img src="https://via.placeholder.com/500" alt="">        
+                                </div>
+                                <div class="guide_txt">
+                                    <p>
+                                        컨텐츠 로딩속도 최적화를 위해 lazyload방식을 채택, 페이지 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다. 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다.
+                                    </p>
+                                    <p>
+                                        컨텐츠 로딩속도 최적화를 위해 lazyload방식을 채택, 페이지 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다. 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="style_guide_wrap">
+                            <h2>타이포그라피</h2>
+                            <div class="style_guide_box">
+                                <div class="guide_img">
+                                    <img src="https://via.placeholder.com/500" alt="">        
+                                </div>
+                                <div class="guide_txt">
+                                    <p>
+                                        컨텐츠 로딩속도 최적화를 위해 lazyload방식을 채택, 페이지 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다. 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다.
+                                    </p>
+                                    <p>
+                                        컨텐츠 로딩속도 최적화를 위해 lazyload방식을 채택, 페이지 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다. 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="style_guide_wrap">
+                            <h2>로고</h2>
+                            <div class="style_guide_box">
+                                <div class="guide_img">
+                                    <img src="https://via.placeholder.com/500" alt="">        
+                                </div>
+                                <div class="guide_txt">
+                                    <p>
+                                        컨텐츠 로딩속도 최적화를 위해 lazyload방식을 채택, 페이지 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다. 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다.
+                                    </p>
+                                    <p>
+                                        컨텐츠 로딩속도 최적화를 위해 lazyload방식을 채택, 페이지 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다. 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="style_guide_wrap">
+                            <h2>UI 시스템</h2>
+                            <div class="style_guide_box">
+                                <div class="guide_img">
+                                    <img src="https://via.placeholder.com/500" alt="">        
+                                </div>
+                                <div class="guide_txt">
+                                    <p>
+                                        컨텐츠 로딩속도 최적화를 위해 lazyload방식을 채택, 페이지 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다. 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다.
+                                    </p>
+                                    <p>
+                                        컨텐츠 로딩속도 최적화를 위해 lazyload방식을 채택, 페이지 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다. 간의 지연시간을 최소화 시킴으로 보다 빠르고 특별한 사용자 경험을 제공합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div><!--//swiper-wrapper-->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="item-4" class="item">
+        <div class="container">
+            <div class="frontend_wrap">
+                <div class="frontend_top_wrap">
+                    <h2>
+                        <span><img src="assets/img/icon/frontend_icon.png" alt="frontend_icon"></span>
+                        프론트 비하인드
+                    </h2>
+                    <p>사용 프로그램: HTML5, CSS3, Javascript, Swiper Plugin(JS)</p>
+                    <span><img src="assets/img/frontend_illust.png" alt="frontend_illust"></span>
+                </div>
+                <div class="frontend_txt_wrap">
+                    <p>
+                        자바스크립트로 예약바를 구현하였습니다. 자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.
+                    </p>
+                    <p>
+                        자바스크립트로 예약바를 구현하였습니다. 자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.자바스크립트로 예약바를 구현하였습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="style_guide_out">
+            </div>
+        </div>
+    </section>         
+</body>
+</html>
