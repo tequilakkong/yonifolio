@@ -76,6 +76,11 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
+/* animate.css style */
+/* :root {
+    --animate-duration: 4s; /*animate__slow*/
+  } */
+
 
 /* ======================stylesheet start=========================== */
 
@@ -298,8 +303,9 @@ section {
 }
 .skill_bar_fill {
     background: rgba(255,255,255,0.9);
+    width: 0;
 }
-
+  
 .str_btn {
     margin-top: 100px;
     text-align: right;
