@@ -68,3 +68,15 @@ $('.scroll_down_wrap').click(function(){
   var offset = $("#item-2").offset(); //해당 위치 반환
   $("html").animate({scrollTop: offset.top}, 200);
 });
+
+
+//메뉴 가이드 hover 이벤트
+$(".guide_txt a").mouseenter(function(){
+  $(".guide_img img:nth-child(2)").toggleClass('on')
+});
+
+$(".guide_txt a").mouseout(function(){
+  $(".guide_img img:nth-child(2)").removeClass('on')
+});
+
+
