@@ -165,7 +165,7 @@ $('.s2').mouseenter(function(){
 
 
 //프로젝트 사이트 이동
-pSite1 = 'https://yonikk.cafe24.com/02/02_final/project/sidance/sidance_main.html';
+pSite1 = 'https://tequilakkong.github.io/sidance2021/';
 pSite2 = 'https://tequilakkong.github.io/mocamp_desktop/'
 pSite2_m = 'https://tequilakkong.github.io/m_mocamp/'
 pSite3 = 'https://tequilakkong.github.io/laneige/'
