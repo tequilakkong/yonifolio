@@ -16,6 +16,10 @@ radius - 8px, 16px, 30px */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 /* 'Outfit' */
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+/* 'IBM Plex Sans KR' */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200;300;400;500;600;700&display=swap');
+/* 'Radio Canada' */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=Oswald:wght@200;300;500;700&family=Radio+Canada:wght@300;400;700&display=swap');
 
 /* =========Base========= */
 html,body {
@@ -293,14 +297,27 @@ html {
     display: inline-block;
     vertical-align: top;
     width: 240px;
-    /* border: 1px solid pink; */
 }
-#item-2 .item_box_wrap .item_box .typo_box span:first-child {
+.typo_box.si span:first-child {
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.typo_box.mo span:first-child {
     font-family: 'Inter', sans-serif;
 }
-#item-2 .item_box_wrap .item_box .typo_box span:nth-child(2) {
+.typo_box.mo span:nth-child(2) {
     font-family: 'Outfit', sans-serif;
 }
+
+.typo_box.la span:first-child {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.typo_box.la span:nth-child(2) {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
 
 .bold {
     display: block;
@@ -367,16 +384,42 @@ html {
     align-items: center;
     justify-content: center;
 }
-.style_guide_box > div {
-    width: 480px;
-    margin: 0 30px;
+.guide_txt {
+    width: 380px;
+    margin-left: 30px;
 }
-
+.guide_txt a {
+    display: inline-block;
+    padding: 6px 8px;
+    border: 1px solid #C21E1E;
+    color: #C21E1E;
+    font-size: 12px;
+}
+.guide_txt a:hover {
+    border: 0;
+    color: #fff;
+    background: #C21E1E;
+}
+.guide_img {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
 .guide_img img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    position: absolute;
+    top: 0; left: 0;
 }
+.guide_img img:nth-child(2){
+    display: none;
+    z-index: 2;
+}
+.guide_img img:nth-child(2).on{
+    display: block;
+}
+
 .guide_txt p {
     margin-bottom: 36px;
 }
@@ -446,3 +489,4 @@ html {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+
