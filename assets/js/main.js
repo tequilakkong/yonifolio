@@ -172,7 +172,6 @@ pSite3 = 'https://tequilakkong.github.io/laneige/'
 
 function project1() {
   location.href = pSite1; //기존 창에서 페이지 이동
-	// window.open(pSite1); //새창으로 열기
 }
 
 function project2() {
@@ -180,8 +179,9 @@ function project2() {
 }
 
 function project2_m() {
-  location.href = pSite2_m;
+  window.open(pSite2_m, "_blank", "width=375, height=800");
 }
+//출처: https://ssd0908.tistory.com/entry/JavaScript-windowopen-%EC%83%88%EC%B0%BD%EC%9C%BC%EB%A1%9C-%EC%97%B4%EA%B8%B0-%EC%82%AC%EC%9A%A9%EB%B2%95
 
 function project3() {
   location.href = pSite3;
