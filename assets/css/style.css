@@ -45,7 +45,6 @@ section {
     bottom: 0;
     width: 100%;
     background: rgba(29, 37, 35, 0.296);
-    /* box-shadow: inset 0 0 50px rgb(0, 0, 0); 안으로 그림자 퍼지는 효과. x축 y축 퍼지는 정도 색상 */
     opacity: 0;
 }
 .area3 {
@@ -75,11 +74,6 @@ section {
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
 }
-
-/* animate.css style */
-/* :root {
-    --animate-duration: 4s; /*animate__slow*/
-  } */
 
 
 /* ======================stylesheet start=========================== */
@@ -245,6 +239,10 @@ section {
 }
 .s2 .layout .container {
     margin-bottom: 50px;
+    line-height: 28px;
+}
+.main_hello {
+    word-break: keep-all;
 }
 .s2 .layout .container h3 {
     font-size: 24px;

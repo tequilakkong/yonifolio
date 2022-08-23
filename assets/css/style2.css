@@ -436,11 +436,13 @@ html {
 }
 #item-4 .container{
     position: relative;
+    padding-top: 150px;
 }
 .frontend_wrap {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 .frontend_top_wrap {
     text-align: center;
@@ -471,14 +473,23 @@ html {
     display: inline-block;
     margin: 64px 0;
 }
-.frontend_txt_wrap {
-    display: flex;
-    justify-content: center;
+.multi {
+    /* -webkit-column-count: 2;
+    -moz-column-count: 3;
+    -o-column-count: 2; */
+    column-count: 2;
+    column-width: auto;
 }
 .frontend_txt_wrap p {
-    width: 500px;
-    margin: 0 24px;
+    width: 40vw;
+    margin-bottom: 24px;
 }
+.frontend_txt_wrap p strong {
+    display: inline-block;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
 .style_guide_out {
     position: absolute;
     top: 0;
