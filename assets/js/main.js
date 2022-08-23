@@ -75,6 +75,16 @@ $(document).ready(function(){
 // 출처: https://appsnuri.tistory.com/411
 
 
+//work strategy 바로가기
+$(document).ready(function(){
+  $('.str_btn').click(function(){
+    var offset = $('.s4').offset(); 
+    $('html').animate({scrollTop : offset.top}, 400);	
+    });	
+  });
+
+
+
 
 //실시간(현재) 스크롤값 얻기 (현재 스크롤값이 로깅됨)
 // $(window).scroll(function () {
