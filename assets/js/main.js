@@ -136,37 +136,37 @@ $(document).ready(function(){
 
 
 $('.s2').mouseenter(function(){
-  $('.frontend_wrap .skill_wrap div:nth-child(1) .skill_bar_fill').animate({width:300},700,"easeInSine");
+  $('.frontend_wrap .skill_wrap div:nth-child(1) .skill_bar_fill').animate({width:'80%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.frontend_wrap .skill_wrap div:nth-child(2) .skill_bar_fill').animate({width:270},700,"easeInSine");
+  $('.frontend_wrap .skill_wrap div:nth-child(2) .skill_bar_fill').animate({width:'80%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.frontend_wrap .skill_wrap div:nth-child(3) .skill_bar_fill').animate({width:180},700,"easeInSine");
+  $('.frontend_wrap .skill_wrap div:nth-child(3) .skill_bar_fill').animate({width:'40%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.frontend_wrap .skill_wrap div:nth-child(4) .skill_bar_fill').animate({width:190},700,"easeInSine");
+  $('.frontend_wrap .skill_wrap div:nth-child(4) .skill_bar_fill').animate({width:'50%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.design_wrap .skill_wrap div:nth-child(1) .skill_bar_fill').animate({width:280},700,"easeInSine");
+  $('.design_wrap .skill_wrap div:nth-child(1) .skill_bar_fill').animate({width:'60%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.design_wrap .skill_wrap div:nth-child(2) .skill_bar_fill').animate({width:250},700,"easeInSine");
+  $('.design_wrap .skill_wrap div:nth-child(2) .skill_bar_fill').animate({width:'50%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.design_wrap .skill_wrap div:nth-child(3) .skill_bar_fill').animate({width:280},700,"easeInSine");
+  $('.design_wrap .skill_wrap div:nth-child(3) .skill_bar_fill').animate({width:'70%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.tools_wrap .skill_wrap div:nth-child(1) .skill_bar_fill').animate({width:280},700,"easeInSine");
+  $('.tools_wrap .skill_wrap div:nth-child(1) .skill_bar_fill').animate({width:'70%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.tools_wrap .skill_wrap div:nth-child(2) .skill_bar_fill').animate({width:230},700,"easeInSine");
+  $('.tools_wrap .skill_wrap div:nth-child(2) .skill_bar_fill').animate({width:'60%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.tools_wrap .skill_wrap div:nth-child(3) .skill_bar_fill').animate({width:330},700,"easeInSine");
+  $('.tools_wrap .skill_wrap div:nth-child(3) .skill_bar_fill').animate({width:'80%'},700,"easeInSine");
 });
 $('.s2').mouseenter(function(){
-  $('.tools_wrap .skill_wrap div:nth-child(4) .skill_bar_fill').animate({width:330},700,"easeInSine");
+  $('.tools_wrap .skill_wrap div:nth-child(4) .skill_bar_fill').animate({width:'80%'},700,"easeInSine");
 });
 
 
