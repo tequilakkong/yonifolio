@@ -193,10 +193,7 @@
 
 
 @media (max-width: 1240px) {
-    .skill_wrap {
-        width: 39vw;
-    }
-    .skill_wrap div .skill_bar_wrap {
+    .skill_bar {
         width: 30vw;
     }
 }
@@ -227,6 +224,25 @@
         padding: 64px 0;
     }
 
+    .s2 .layout > div {
+        margin: 0;
+    }
+    .introduction_wrap {
+        width: 40vw;
+    }
+    .skill_wrap {
+        width: 40vw;
+    }
+    .skill_wrap div .skill_bar_wrap {
+        width: 28vw;
+    }
+    .skill_bar {
+        width: 100%;
+    }
+    .skill_bar_fill {
+        width: 0;
+    }
+
     /* 프로젝트 */
     .cont_box_inner {
         margin: 28px 0;
@@ -249,6 +265,10 @@
     }
     .cont_box_sub {
         font-size: 14px;
+    }
+    .txt {
+        width: 8vw;
+        height: 8vw;
     }
     .go_site {
         height: 48px;
@@ -350,8 +370,14 @@
         width: auto;
     }
     .skill_wrap div .skill_bar_wrap {
-        width: 60vw;
+        width: 70vw;
     }
+    .skill_bar {
+        width: 100%;
+    }
+    .skill_bar_fill {
+        width: 0;
+    } 
     .main_design_cont_box {
         display: flex;
         flex-direction: column;
@@ -364,6 +390,7 @@
     .main_design_illust {
         margin-top: 4vw;
     }
+    
 }
 
 
@@ -406,35 +433,59 @@
         width: 12%; height: 12%;
     }    
     .skill_wrap div .skill_bar_wrap {
-        width: 50vw;
+        width: 64vw;
     }
     .skill_bar_fill {
-        width: 10vw;
+        width: 0;
     }
-        /* 프로젝트 */
-        .main_projects_cont_wrap {
-            display: flex;
-            flex-direction: column;
-        }
-        .main_projects_cont_box {
-            width: 100%;
-            padding: 0 20px;
-        }
-        .cont_box_img {
-            height: 58vw;
-        }
-        .cont_box_inner {
-            margin: 30px 0;
-        }
-        .cont_box_inner h4 {
-            font-size: 22px;
-        }
-        .cont_box_tit {
-            width: 140px;
-        }
-        .cont_box_sub {
-            padding-right: 0;
-        }
-        /* //프로젝트 */
-        
+    /* 프로젝트 */
+    .main_projects_cont_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .main_projects_cont_box {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .cont_box_img {
+        height: 58vw;
+    }
+    .cont_box_inner {
+        margin: 30px 0;
+    }
+    .cont_box_inner h4 {
+        font-size: 22px;
+    }
+    .cont_box_tit {
+        width: 140px;
+    }
+    .cont_box_sub {
+        padding-right: 0;
+    }
+    .txt {
+        width: 14vw;
+        height: 14vw;
+    }
+    .txt span {
+        font-size: 2vw;
+    }
+
+    /* //프로젝트 */
+
+    .s3 .main_tit p:first-child {
+        width: 80vw;
+    }
+    .s3 .main_tit {
+        font-size: 6.4vw;
+    }
+    .s4 .main_tit p:first-child {
+        width: 85vw;
+        padding-left: 2%;
+    }
+    .s4 .main_tit, .s5 .main_tit {
+        font-size: 6vw;
+    }
+    .s5 .main_tit p:last-child {
+        width: 68vw;
+    }
 }

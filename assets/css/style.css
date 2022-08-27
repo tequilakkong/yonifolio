@@ -294,7 +294,7 @@ section {
     position: absolute;
     top: 0; left: 0;
     display: inline-block;
-    width: 350px;
+    width: 26vw;
     height: 12px;
     background: rgba(255,255,255,0.3);
     border-radius: 50px;
@@ -522,7 +522,8 @@ section {
 .footer_wrap {
     background: #C21E1E;
     color: #fff;
-    height: 580px;
+    /* height: 580px; */
+    padding-bottom: 50px;
 }
 .footer_top {
     display: flex;
