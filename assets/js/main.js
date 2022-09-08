@@ -1,17 +1,15 @@
 //스크롤 애니메이션
 var wow = new WOW(
   {
-    boxClass:     'item',      // animated element css class (default is wow)
-    animateClass: 'animate__animated', // animation css class (default is animated)
-    offset:       50,          // distance(px) to the element when triggering the animation (default is 0)
-    mobile:       true,       // trigger animations on mobile devices (default is true)
-    live:         true,       // act on asynchronously loaded content (default is true)
+    boxClass:     'item', 
+    animateClass: 'animate__animated',
+    offset:       50,         
+    mobile:       true,   
+    live:         true, 
     callback:     function(box) {
-      // the callback is fired every time an animation is started
-      // the argument that is passed in is the DOM node being animated
     },
-    scrollContainer: null,    // optional scroll container selector, otherwise use window,
-    resetAnimation: true,     // reset animation on end (default is true)
+    scrollContainer: null, 
+    resetAnimation: true
   }
 );
 wow.init();
@@ -47,21 +45,15 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('#work_btn').click(function(){
-  var offset = $('.s3').offset(); 
+  var offset = $('.s2').offset(); 
   $('html').animate({scrollTop : offset.top}, 400);	
   });	
 });
 
-$(document).ready(function(){
-  $('#process_btn').click(function(){
-  var offset = $('.s4').offset(); 
-  $('html').animate({scrollTop : offset.top}, 400);	
-  });	
-});
 
 $(document).ready(function(){
   $('#about_btn').click(function(){
-  var offset = $('.s2').offset(); 
+  var offset = $('.s3').offset(); 
   $('html').animate({scrollTop : offset.top}, 400);	
   });	
 });
@@ -72,163 +64,67 @@ $(document).ready(function(){
   $('html').animate({scrollTop : offset.top}, 400);	
   });	
 });
-// 출처: https://appsnuri.tistory.com/411
 
 
-//work strategy 바로가기
-$(document).ready(function(){
-  $('.str_btn').click(function(){
-    var offset = $('.s4').offset(); 
-    $('html').animate({scrollTop : offset.top}, 400);	
-    });	
-  });
+//프로젝트 탭 메뉴
+var $tabBtn = $('.tab li a');
 
-
-
-
-//실시간(현재) 스크롤값 얻기 (현재 스크롤값이 로깅됨)
-// $(window).scroll(function () {
-//   var scrollT = $(document).scrollTop(); //스크롤바의 상단위치        
-//   var contentH = $('.s1').height(); //.s1의 높이  
-// 	var floor = Math.floor(contentH);
-// 	var floor2 = Math.floor(scrollT);
-//   console.log('s1의 높이 정수는?'+ floor );
-//   console.log('스크롤 정수는?'+ floor2 );
-// });
-// //- 출처: euntori.blog | [제이쿼리] 현재 스크롤값 가져오기(scroll) (2016.02.05)
-
-
-
-//스킬바 애니메이션 -> 실패 버전
-// $(document).ready(function(){    //스크롤 발생 이벤트 처리    
-//   $('window').scroll(function(){        
-//     var scrollT = $(document).scrollTop(); //스크롤바의 상단위치        
-//     var contentH = $('.s1').height(); //.s1의 높이  
-//     var floor_c = Math.floor(contentH);
-//     var floor_s = Math.floor(scrollT);
-//     var skillBar = $('.frontend_wrap .skill_wrap .skill_bar_fill')
-//     if(floor_s = floor_c) { // 스크롤바 위치가 s1와 같을 때            
-//       $(skillBar).animate({width:300},700,"swing");
-//     }    
-//   });
-// });
-// 출처: https://dororongju.tistory.com/93 [웹 개발 메모장:티스토리]
-
-
-// //스킬바 애니메이션 -> 2nd 시도 -> 실패
-// $(document).ready(function(){
-//   $('window').scroll(function(){
-//     var window_scrollTop = $(window).scrollTop();
-//     var s1_scrollTop = $('.s1').offset().top; //$("선택자").offset().top; : 화면상에서 특정 요소의 y축 위치
-//     var s2_scrollTop = $('.s2').offset().top;
-   
-//     console.log(window_scrollTop);
-//     console.log(s1_scrollTop);
-//     console.log(s2_scrollTop);
-  
-//     if(window_scrollTop < s1_scrollTop){
-//       $(skillBar).animate({width:300},700,"swing");
-//     }
-//   });
-// });
-
-
-
-
-$('.s2').mouseenter(function(){
-  $('.frontend_wrap .skill_wrap div:nth-child(1) .skill_bar_fill').animate({width:'80%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.frontend_wrap .skill_wrap div:nth-child(2) .skill_bar_fill').animate({width:'80%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.frontend_wrap .skill_wrap div:nth-child(3) .skill_bar_fill').animate({width:'40%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.frontend_wrap .skill_wrap div:nth-child(4) .skill_bar_fill').animate({width:'50%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.design_wrap .skill_wrap div:nth-child(1) .skill_bar_fill').animate({width:'60%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.design_wrap .skill_wrap div:nth-child(2) .skill_bar_fill').animate({width:'50%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.design_wrap .skill_wrap div:nth-child(3) .skill_bar_fill').animate({width:'70%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.tools_wrap .skill_wrap div:nth-child(1) .skill_bar_fill').animate({width:'70%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.tools_wrap .skill_wrap div:nth-child(2) .skill_bar_fill').animate({width:'60%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.tools_wrap .skill_wrap div:nth-child(3) .skill_bar_fill').animate({width:'80%'},700,"easeInSine");
-});
-$('.s2').mouseenter(function(){
-  $('.tools_wrap .skill_wrap div:nth-child(4) .skill_bar_fill').animate({width:'80%'},700,"easeInSine");
+$tabBtn.click(function(e){
+    e.preventDefault();
+    $tabBtn.removeClass('on'); 
+    $(this).addClass('on');
 });
 
 
+$('.btn_bs').click(function(){
+    $('.all').fadeOut(0);
+    $('.basic').fadeIn(500);
+});
 
+$('.btn_rsp').click(function(){
+    $('.all').fadeOut(0);
+    $('.responsive').fadeIn(500);
+});
+$('.btn_ad').click(function(){
+    $('.all').fadeOut(0);
+    $('.adaptive').fadeIn(500);
+});
 
 
 
 //프로젝트 사이트 이동
-pSite1 = 'https://tequilakkong.github.io/sidance2021/';
-pSite2 = 'https://tequilakkong.github.io/mocamp_desktop/'
-pSite2_m = 'https://tequilakkong.github.io/m_mocamp/'
-pSite3 = 'https://tequilakkong.github.io/laneige/'
+pSite1 = 'https://tequilakkong.github.io/laneige/';
+pSite2 = 'https://tequilakkong.github.io/tiretech/';
+pSite3 = 'https://tequilakkong.github.io/hotelLago/';
+pSite4 = 'https://tequilakkong.github.io/sidance2021/';
+pSite5 = 'https://tequilakkong.github.io/lottehotel/'
+pSite6 = 'https://tequilakkong.github.io/KBcard/'
+pSite7 = 'https://tequilakkong.github.io/mocamp_desktop/'
+pSite7_m = 'https://tequilakkong.github.io/m_mocamp/'
+
 
 function project1() {
-  location.href = pSite1; //기존 창에서 페이지 이동
+  window.open(pSite1, "_blank"); //기존 창에서 페이지 이동
 }
-
 function project2() {
-  location.href = pSite2;
+  window.open(pSite2, "_blank");
 }
-
-function project2_m() {
-  window.open(pSite2_m, "_blank", "width=375, height=800");
-}
-//출처: https://ssd0908.tistory.com/entry/JavaScript-windowopen-%EC%83%88%EC%B0%BD%EC%9C%BC%EB%A1%9C-%EC%97%B4%EA%B8%B0-%EC%82%AC%EC%9A%A9%EB%B2%95
-
 function project3() {
-  location.href = pSite3;
+  window.open(pSite3, "_blank"); 
+}
+function project4() {
+  window.open(pSite4, "_blank");
+}
+function project5() {
+  window.open(pSite5, "_blank"); 
+}
+function project6() {
+  window.open(pSite6, "_blank");
+}
+function project7() {
+  window.open(pSite7, "_blank");
+}
+function project7_m() {
+  window.open(pSite7_m, "_blank", "width=375, height=800");
 }
 
-//출처: https://jhost.tistory.com/62 [dev.j:티스토리]
-
-
-//프로젝트 썸네일 hover
-var du = 400; //변수설정, 시간
-
-$('.s3 .cont_box_img').on('mouseenter',function(){
-  $(this).find('.vn').stop().animate({opacity:1},du);
-  $(this).find('.txt').stop().delay(100).animate({bottom:0},300);
-  $(this).find('img').stop().animate({width:'110%', left:'-5%'},du);
-})
-.on('mouseleave',function(){
-  $(this).find('.vn').stop().delay(200).animate({opacity:''},du); 
-  $(this).find('.txt').stop().animate({bottom:'-120px'},300); 
-  $(this).find('img').stop().animate({width:'100%',top:'', left:''},du);
-})
-
-
-//프로젝트 스타일 가이드 바로가기
-stSite1 = 'subpage_sidance.html'
-stSite2 = 'subpage_mocamp.html'
-stSite3 = 'subpage_laneige.html'
-
-
-function stLink1() {
-	location.href = stSite1;
-}
-
-function stLink2() {
-	location.href = stSite2;
-}
-
-function stLink3() {
-	location.href = stSite3;
-}
